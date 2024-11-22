@@ -36,7 +36,7 @@ struct MonthlyStats: Identifiable {
 }
 
 struct HistoryView: View {
-    @State private var runs: [Run] = [
+    @State var runs: [Run] = [
         // Novembre
         Run(
             distance: 7.0,
